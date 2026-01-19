@@ -1,0 +1,49 @@
+.footer {
+  background-color: #3c1561;
+  padding: 4rem 0;
+  color: white;
+}
+
+.row {
+  align-items: flex-start;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 0.4rem 0;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.social {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.email{
+    background-color:#471477;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

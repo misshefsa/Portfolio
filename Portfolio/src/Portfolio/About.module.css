@@ -1,0 +1,31 @@
+.heading{
+    color: white;
+}
+.body{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color: white;
+    
+}
+.link{
+      color: purple;
+font-weight: 500;
+text-decoration: none;
+list-style: none;
+font-size: 1.2rem;
+}
+.p{
+    font-size:1.2rem ;
+    padding: 2rem;
+    box-shadow: 1px 1px 1px purple;
+   
+}
+.link:hover{
+    color: #8e14ff;
+}
+.highlights{
+     color: purple;
+font-weight: 500;
+
+    margin-right: 0.6rem;
+}
