@@ -44,4 +44,14 @@
 
 .project{
   box-shadow: 2px 2px 2220px purple;
+  width: 30rem;
+  border-radius: 1rem;
+}
+.kfcproject{
+  border-bottom-right-radius: 3rem;
+}
+.project:hover{
+  background-color: aliceblue;
+  box-shadow: 2px 2px 2220px rgb(255, 25, 255);
+
 }

@@ -8,7 +8,6 @@ export default function Footer() {
     <div className={`container-fluid ${styles.footer}`}>
       <div className="container">
         <div className={`row ${styles.row}`}>
-
           {/* Logo */}
           <div className={`col-md-3 ${styles.col}`}>
             <img src={logo} alt="logo" height={30} />
@@ -25,8 +24,6 @@ export default function Footer() {
             </ul>
           </div>
 
-      
-
           {/* About + Social */}
           <div className="col-md-3 col-sm-4">
             <ul className={styles.list}>
@@ -35,20 +32,17 @@ export default function Footer() {
               <li>Contact</li>
               <li>Resume</li>
             </ul>
-</div>
-            <div className={`${styles.social} col-md-3 col-sm-4`}>
-              <FaFacebook className={styles.icon} />
-              <FaGithub className={styles.icon} />
-              <FaLinkedin className={styles.icon} />
-            </div>
           </div>
-            <div className={`${styles.social} col-12`}>
-                <p className={`${styles.email}`}>
-        ©  2023 Hefsa. All rights reserved.
-      </p>
+          <div className={`${styles.social} col-md-3 col-sm-4`}>
+            <FaFacebook className={styles.icon} />
+            <FaGithub className={styles.icon} />
+            <FaLinkedin className={styles.icon} />
           </div>
-</div>
+        </div>
       </div>
-   
+      <div className={`${styles.social} col-12`}>
+        <p className={`${styles.email}`}>© 2023 Hefsa. All rights reserved.</p>
+      </div>
+    </div>
   );
 }

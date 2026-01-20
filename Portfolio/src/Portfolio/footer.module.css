@@ -2,6 +2,7 @@
   background-color: #3c1561;
   padding: 4rem 0;
   color: white;
+  height: 17rem;
 }
 
 .row {
@@ -46,4 +47,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width:580px) {
+  .footer{
+    height: 30rem;
+  }
 }

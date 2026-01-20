@@ -20,7 +20,7 @@ export default function Projects() {
         </div>
         <br />
       </div>
-      <div className={` ${styles.project1}`}>
+      <div className={` ${styles.project1} ${styles.kfcproject}`}>
         <img src={project} className={`img-fluide ${styles.project}`}  alt="" />
       </div>
       
